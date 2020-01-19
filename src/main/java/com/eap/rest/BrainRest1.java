@@ -27,7 +27,7 @@ public class BrainRest1 {
     @Produces("application/xml")
     public String GetXml(@PathParam("name") String name) {
         System.out.println("name:" + name);
-        return "<xml><result>" + es.doMessage(name) + "</result></xml>";
+        return "<xml><resultnew>" + es.doMessage(name) + "</result></xml>";
     }
 
     @GET
